@@ -1,4 +1,44 @@
 * {
-  margin: opx;
+  margin: 0px;
   padding: 0px;
+}
+/* styles for the elements of top banner section */
+.top-banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.1);
+  width: 1920px;
+  height: 850px;
+}
+
+.top-banner-heading {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+}
+
+.top-banner-description {
+  margin-top: 20px;
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn {
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 25px;
+}
+
+.top-banner-image-div {
+  height: 750px;
 }
