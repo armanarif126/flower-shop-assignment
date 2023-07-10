@@ -42,3 +42,80 @@
 .top-banner-image-div {
   height: 750px;
 }
+
+
+/* styles for the elements of "featured flower" section */
+
+.featured-flower-content {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.featured-flower-heading {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.featured-flower-description {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.featured-flower-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.featured-flower-image1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.featured-flower-image2 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-flower-image3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-image1 {
+  width: 310px;
+  height: 428px;
+  margin-top: 58px;
+  padding: 50px 20px 0px 20px;
+}
+
+.featured-image2 {
+  width: 370px;
+  height: 370px;
+  margin-top: 25px;
+  padding: 110px 27px 30px 27px;
+}
+
+.featured-image3 {
+  width: 314px;
+  height: 471px;
+  margin-top: 65px;
+}
+
+.featured-flower-image-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 370px;
+}
