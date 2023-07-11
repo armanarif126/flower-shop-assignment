@@ -178,7 +178,6 @@
   height: 420px;
 }
 
-
 /* styles for "Instagram Section" */
 .instagram-content {
   text-align: center;
@@ -212,4 +211,69 @@
 .insta-gallery-image {
   width: 342px;
   height: 396px;
+}
+
+/* styles for "latest deal Section" */
+.latest-deal {
+  background: url(/latest-deal-background/Rectangle\ 9.png);
+  width: 1420px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 185px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.about-latest-deal {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.latest-deal-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+.latest-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.suscription-of-latest-deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.email-input-field {
+  border-style: none;
+  border-radius: 8px;
+  background: #fff;
+  width: 700px;
+  height: 64px;
+}
+
+::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: left;
+  padding-left: 30px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.subscription-btn {
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 17px 43px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 25px;
 }
