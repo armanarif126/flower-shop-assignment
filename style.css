@@ -177,3 +177,39 @@
   width: 318px;
   height: 420px;
 }
+
+
+/* styles for "Instagram Section" */
+.instagram-content {
+  text-align: center;
+  padding: 100px 100px 40px 100px;
+}
+
+.insta-heading {
+  color: #272727;
+
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.intagram-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px 20px 20px;
+}
+
+.insta-gallery-image {
+  width: 342px;
+  height: 396px;
+}
