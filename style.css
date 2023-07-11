@@ -95,20 +95,22 @@
   width: 310px;
   height: 428px;
   margin-top: 58px;
-  padding: 50px 20px 0px 20px;
+  padding: 50px 20px 0px 65px;
 }
 
 .featured-image2 {
   width: 370px;
   height: 370px;
   margin-top: 25px;
-  padding: 110px 27px 30px 27px;
+  padding: 110px 27px 30px 65px;
 }
 
 .featured-image3 {
   width: 314px;
   height: 471px;
   margin-top: 65px;
+
+  padding-left: 65px;
 }
 
 .featured-flower-image-links {
@@ -129,4 +131,49 @@
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   height: 320px;
+}
+
+/* styles for the element of "Hot Deal section" section */
+
+.hot-deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  background: rgba(229, 84, 115, 0.05);
+  width: 1922px;
+  height: 620px;
+}
+
+.details-about-hot-deal {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.hot-deal-heading {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.discount-offer {
+  color: #e55473;
+}
+.hot-deal-btn {
+  padding-left: 400px;
+}
+
+.hot-deal-image {
+  width: 318px;
+  height: 420px;
 }
