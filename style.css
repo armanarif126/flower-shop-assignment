@@ -3,6 +3,7 @@
   padding: 0px;
 }
 /* styles for the elements of top banner section */
+
 .top-banner-container {
   display: flex;
   justify-content: space-around;
@@ -277,6 +278,23 @@
   font-family: Lato;
   font-size: 25px;
 }
+
+/* style for follow us on section */
+
+.tile-for-social-media {
+  text-align: center;
+  color: #0f0c0d;
+  font-size: 30px;
+}
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
 /* footer styles */
 
 .footer-content {
