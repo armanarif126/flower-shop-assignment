@@ -6,11 +6,14 @@
 
 .top-banner-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 500px;
   background-color: rgba(229, 84, 115, 0.1);
-  width: 1920px;
-  height: 850px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .top-banner-heading {
@@ -37,10 +40,6 @@
   color: #fff;
   font-family: Lato;
   font-size: 25px;
-}
-
-.top-banner-image-div {
-  height: 750px;
 }
 
 /* styles for the elements of "featured flower" section */
@@ -132,6 +131,9 @@
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   height: 320px;
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
 }
 
 /* styles for the element of "Hot Deal section" section */
@@ -142,8 +144,10 @@
   align-items: center;
   gap: 150px;
   background: rgba(229, 84, 115, 0.05);
-  width: 1922px;
-  height: 620px;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-top: 200px;
 }
 
 .details-about-hot-deal {
@@ -180,6 +184,11 @@
 }
 
 /* styles for "Instagram Section" */
+
+.Instragram {
+  width: 80%;
+  margin: auto;
+}
 .instagram-content {
   text-align: center;
   padding: 100px 100px 40px 100px;
@@ -205,7 +214,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   padding: 0px 20px 20px 20px;
 }
 
@@ -215,15 +224,16 @@
 }
 
 /* styles for "latest deal Section" */
+
+.get-latest-deal {
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+}
 .latest-deal {
   background: url(./latest-deal-background/rectangle9.png);
-  width: 1420px;
-  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 185px;
-  margin-top: 200px;
-  margin-bottom: 200px;
 }
 
 .about-latest-deal {
@@ -250,6 +260,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding: 80px 50px;
 }
 
 .email-input-field {
@@ -281,6 +292,12 @@
 
 /* style for follow us on section */
 
+.follow-in-Social-handle {
+  width: 54%;
+  margin: auto;
+  margin-top: 100px;
+}
+
 .tile-for-social-media {
   text-align: center;
   color: #0f0c0d;
@@ -297,13 +314,17 @@
 
 /* footer styles */
 
+.Whole-footer {
+  width: 100%;
+}
+
 .footer-content {
   background: #111010;
-  width: 1922px;
-  height: 449px;
+
   color: white;
   text-align: center;
   padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .footer-title {
